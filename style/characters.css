@@ -40,7 +40,7 @@ header a :hover {
 }
 
 #characters {
-    background-color: #31af9a;
+    background-color: #0f957e;
 }
 
 header h1,
@@ -59,6 +59,11 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+header nav li {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 main {
@@ -112,37 +117,65 @@ img {
     border-radius: 5px;
 }
 
+i {
+    font-size: 30px;
+    color: black;
+}
+
+#fb {
+    width: 148px;
+    /* margin: 0%;
+    position: relative;
+    top: -65%;
+    right: -3%; */
+    transition: top 0.3s;
+}
+
+#ig {
+    width: 104px;
+    /* margin: 0%;
+    position: relative;
+    top: -58%;
+    right: -1%; */
+    transition: top 0.3s;
+}
+
+#fbig {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#fb:hover {
+    text-decoration: underline;
+}
+
+#ig:hover {
+    text-decoration: underline;
+}
+
+footer i:hover {
+    color: whitesmoke;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+footer p {
+    position: relative;
+    top: 15%;
+    margin: 10px;
+}
+
 footer {
-    height: 60px;
+    height: 108px;
     display: block;
     color: antiquewhite;
     background: #1c5a4f;
     padding: 10px;
     font-size: 20px;
     text-align: center;
+    margin-top: 5;
 }
-
-
-/* .cha {
-    margin: 5px;
-    border: bisque 3px solid;
-    border-radius: 7px;
-    float: left;
-    width: 30%;
-    padding: 7px;
-    background-color: #011F19;
-}
-
-.chamain img {
-    width: 100%;
-    height: auto;
-}
-
-.chamain a {
-    text-decoration: none;
-}
-
-h3 {
-    text-align: center;
-    color: black;
-} */
