@@ -89,7 +89,7 @@
     }
     
     .center {
-        width: 70vw;
+        width: 68vw;
         height: auto;
         margin-right: auto;
         margin-left: auto;
@@ -187,7 +187,7 @@
     @media only screen and (min-width: 1px) and (max-width: 500px) {
         header {
             height: 120px;
-            width: 140%;
+            width: 104%;
             display: grid;
             grid-template-rows: 60px 30px;
             grid-row-gap: 10px;
@@ -198,7 +198,7 @@
             padding: 0px;
             justify-self: center;
             align-self: center;
-            width: 96%;
+            width: 90%;
             font-size: 36px;
             height: 30px;
             text-align: center;
@@ -227,7 +227,7 @@
             justify-self: center;
             align-self: start;
             display: block;
-            width: 312px;
+            width: 320px;
             height: 28px;
             /* padding: 0px 20px 0px 30px; */
             /*position: relative;
@@ -235,11 +235,12 @@
         }
         header nav li {}
         main {
-            width: 135%;
+            width: 100%;
         }
-        .center {
-            width: 92vw;
-        }
+        /* .center {
+            width: 68vw;
+            margin: 10px 10px 10px 10px;
+        } */
         main h3 {
             font-size: 22px;
             text-align: center;
@@ -248,7 +249,7 @@
             font-size: 18px;
         }
         footer {
-            height: 102px;
-            width: 135%;
+            height: 122px;
+            width: 98%;
         }
     }
