@@ -77,7 +77,7 @@
     
     main blockquote,
     p {
-        font-size: 22px;
+        font-size: 25px;
     }
     
     main img {
@@ -168,7 +168,7 @@
     }
     
     footer {
-        height: 108px;
+        height: 138px;
         display: block;
         color: antiquewhite;
         background: #1c5a4f;
@@ -246,8 +246,10 @@
             font-size: 18px;
         }
         footer {
-            height: 122px;
+            height: 113px;
             width: 93%;
+            text-align: justify;
+            font-size: 14px;
         }
         footer p {
             position: relative;
@@ -255,6 +257,23 @@
             margin: 8px;
         }
         #fbig {
-            width: 50%
+            width: 50%;
+            margin-left: 0%;
+        }
+        #fb {
+            width: 118px;
+            /* margin: 0%;
+            position: relative;
+            top: -65%;
+            right: -3%; */
+            transition: top 0.3s;
+        }
+        #ig {
+            width: 125px;
+            /* margin: 0%;
+            position: relative;
+            top: -58%;
+            right: -1%; */
+            transition: top 0.3s;
         }
     }
