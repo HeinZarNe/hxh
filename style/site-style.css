@@ -167,12 +167,6 @@
         padding: 5px;
     }
     
-    footer p {
-        position: relative;
-        top: 15%;
-        margin: 10px;
-    }
-    
     footer {
         height: 108px;
         display: block;
@@ -253,6 +247,11 @@
         }
         footer {
             height: 122px;
-            width: 94%;
+            width: 93%;
+        }
+        footer p {
+            position: relative;
+            top: -4%;
+            margin: 8px;
         }
     }
