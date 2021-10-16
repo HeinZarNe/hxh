@@ -185,9 +185,12 @@
     }
     
     @media only screen and (min-width: 1px) and (max-width: 500px) {
+        body {
+            margin: 0px;
+        }
         header {
             height: 120px;
-            width: 104%;
+            width: 100%;
             display: grid;
             grid-template-rows: 60px 30px;
             grid-row-gap: 10px;
@@ -233,9 +236,9 @@
             /*position: relative;
             right: 10px; */
         }
-        header nav li {}
         main {
-            width: 100%;
+            width: 96%;
+            padding-right: 5px;
         }
         /* .center {
             width: 68vw;
@@ -250,6 +253,6 @@
         }
         footer {
             height: 122px;
-            width: 98%;
+            width: 94%;
         }
     }
