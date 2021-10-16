@@ -28,7 +28,6 @@
     }
     
     header li {
-        width: fit-content;
         list-style: none;
         display: inline;
     }
@@ -41,11 +40,6 @@
     header a :hover {
         color: white;
         background-color: black;
-    }
-    
-    header h1,
-    nav {
-        display: inline-block;
     }
     
     header nav ul {
@@ -73,7 +67,7 @@
         display: inline-block;
         padding: 10px;
         padding-top: 40px;
-        text-align: center;
+        text-align: justify;
     }
     
     main h3 {
@@ -188,4 +182,73 @@
         font-size: 20px;
         text-align: center;
         margin-top: 5;
+    }
+    
+    @media only screen and (min-width: 1px) and (max-width: 500px) {
+        header {
+            height: 120px;
+            width: 140%;
+            display: grid;
+            grid-template-rows: 60px 30px;
+            grid-row-gap: 10px;
+            grid-template-areas: "nav" "header";
+        }
+        header h1 {
+            grid-area: header;
+            padding: 0px;
+            justify-self: center;
+            align-self: center;
+            width: 96%;
+            font-size: 36px;
+            height: 30px;
+            text-align: center;
+            margin-top: 0px;
+        }
+        header li {
+            list-style: none;
+        }
+        header a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        header a :hover {
+            color: white;
+            background-color: black;
+        }
+        header nav ul {
+            font-size: 18px;
+            background-color: transparent;
+            height: 25px;
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+        header nav {
+            grid-area: nav;
+            justify-self: center;
+            align-self: start;
+            display: block;
+            width: 312px;
+            height: 28px;
+            /* padding: 0px 20px 0px 30px; */
+            /*position: relative;
+            right: 10px; */
+        }
+        header nav li {}
+        main {
+            width: 135%;
+        }
+        .center {
+            width: 92vw;
+        }
+        main h3 {
+            font-size: 22px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+        }
+        footer {
+            height: 102px;
+            width: 135%;
+        }
     }
