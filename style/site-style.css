@@ -121,11 +121,19 @@
     }
     
     footer {
-        height: 60px;
+        height: 100px;
         display: block;
         color: antiquewhite;
         background: #1c5a4f;
         padding: 10px;
         font-size: 20px;
         text-align: center;
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
     }
