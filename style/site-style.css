@@ -269,11 +269,14 @@
             transition: top 0.3s;
         }
         #ig {
-            width: 125px;
+            width: 79px;
             /* margin: 0%;
             position: relative;
             top: -58%;
             right: -1%; */
             transition: top 0.3s;
+        }
+        footer a {
+            padding: 0px 0px 0px 5px;
         }
     }
