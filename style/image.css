@@ -1,0 +1,195 @@
+        html {
+            background: #0F1313;
+        }
+        
+        body {
+            font-family: 'Roboto Slab', serif;
+        }
+        
+        header {
+            background: #1c5a4f;
+            height: 120px;
+            border: black 1px solid;
+            border-radius: 12px;
+            color: antiquewhite;
+            box-sizing: border-box;
+            box-shadow: 15px 15px 8px 12px #010204;
+        }
+        
+        #images {
+            background-color: #31af9a;
+        }
+        
+        header h1 {
+            padding-left: 40px;
+            width: 70%;
+            font-size: 40px;
+            height: 17px;
+        }
+        
+        header li {
+            width: fit-content;
+            list-style: none;
+            display: inline;
+        }
+        
+        header a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        
+        header a :hover {
+            color: white;
+            background-color: black;
+        }
+        
+        header h1,
+        nav {
+            display: inline-block;
+        }
+        
+        header nav ul {
+            font-size: 18px;
+            padding-right: 40px;
+            background-color: #143d36;
+            margin-right: 5px;
+        }
+        
+        header nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        aside {
+            width: 25%;
+            font-size: 23px;
+            color: antiquewhite;
+            background-color: rgb(24, 27, 27);
+            display: inline-block;
+            vertical-align: top;
+            height: 20350px;
+            box-sizing: border-box;
+            box-shadow: 20px 0px 7px #010204;
+        }
+        /* .aside {
+    width: 28%;
+    color: antiquewhite;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* box-shadow: 15px #010204; */
+        /* } */
+        
+        aside h2 {
+            font-size: 1.6em;
+        }
+        
+        aside ul {
+            padding: 0px 5px 0px 20px;
+            margin-top: 10px;
+            font-size: 1.1em;
+            list-style: circle;
+        }
+        
+        aside a {
+            text-decoration: none;
+            color: antiquewhite;
+            transition: font-size 0.5s;
+        }
+        
+        aside a:hover {
+            color: tomato;
+            font-size: 1.2em;
+        }
+        
+        aside li {
+            margin: 19px 4px 19px 4px;
+            transition: margin 0.3s;
+        }
+        
+        aside li:hover {
+            margin: 1px 0px 1px 0px;
+        }
+        
+        main {
+            display: inline-block;
+            width: 72%;
+            height: 199vh;
+            margin-right: 0px;
+            margin-left: 30px;
+        }
+        
+        h3 {
+            color: antiquewhite;
+            font-size: 36px;
+            font-family: 'PT Serif', serif;
+            height: auto;
+            padding: 0;
+            margin: 20px;
+        }
+        
+        hr {
+            border: 2px solid #285D4B;
+            background-color: #285D4B;
+        }
+        
+        .flex-container {
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        
+        main hr {
+            margin-bottom: 3%;
+        }
+        
+        .inner-image {
+            box-shadow: 12px 15px 9px #000102;
+            max-height: 300px;
+            margin: 14px;
+        }
+        
+        .inner-image.portrait {
+            height: 235px;
+            width: 273.023px;
+        }
+        /* .inner-image.landscape {
+    height: 100px;
+    width: 200px;
+} */
+        
+        #scrollback {
+            width: 109px;
+            height: 51px;
+            background: hsla(169, 52%, 23%, 0.5);
+            padding: 10px;
+            padding-top: 30px;
+            border: 0px solid black;
+            border-radius: 52%;
+            box-shadow: 12px 15px 9px #000102;
+            margin-left: 80%;
+        }
+        
+        #scrollback:hover {
+            background: hsla(169, 52%, 28%, 0.5);
+        }
+        
+        #scrollback a {
+            color: #d1c4c4;
+            font-size: 20px;
+            font-weight: 999;
+            text-decoration: none;
+        }
+        
+        footer {
+            height: 60px;
+            display: block;
+            color: antiquewhite;
+            background: #1c5a4f;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }

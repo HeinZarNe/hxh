@@ -1,0 +1,131 @@
+    html {
+        background: #0F1313;
+    }
+    
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    header {
+        background: #1c5a4f;
+        height: 120px;
+        border: black 1px solid;
+        border-radius: 12px;
+        color: antiquewhite;
+        box-sizing: border-box;
+        box-shadow: 15px 15px 8px 12px #010204;
+    }
+    
+    #home {
+        background-color: #31af9a;
+    }
+    
+    header h1 {
+        padding-left: 40px;
+        width: 70%;
+        font-size: 40px;
+        height: 17px;
+    }
+    
+    header li {
+        width: fit-content;
+        list-style: none;
+        display: inline;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    
+    header a :hover {
+        color: white;
+        background-color: black;
+    }
+    
+    header h1,
+    nav {
+        display: inline-block;
+    }
+    
+    header nav ul {
+        font-size: 18px;
+        padding-right: 40px;
+        background-color: #143d36;
+        margin-right: 5px;
+    }
+    
+    header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    main {
+        width: 98%;
+        color: antiquewhite;
+        display: inline-block;
+        padding: 10px;
+        padding-top: 40px;
+    }
+    
+    main h3 {
+        font-size: 29px;
+        text-align: center;
+    }
+    
+    main blockquote,
+    p {
+        font-size: 22px;
+    }
+    
+    main img {
+        margin: 15px 20px 10px 20px;
+        display: flex;
+        justify-content: center;
+        border: whitesmoke 2px solid;
+        border-radius: 5px;
+    }
+    
+    .center {
+        width: 70vw;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .mainbutton {
+        background-color: #1C465A;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        padding: 6px 25px;
+        margin-top: 4px;
+        border-radius: 5px;
+        word-spacing: 8px;
+        margin-left: 40px;
+    }
+    
+    main a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .mainbutton:hover {
+        background-color: #112C38;
+    }
+    
+    #btn {
+        display: flex;
+        justify-content: end;
+    }
+    
+    footer {
+        height: 60px;
+        display: block;
+        color: antiquewhite;
+        background: #1c5a4f;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }

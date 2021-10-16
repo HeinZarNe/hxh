@@ -1,0 +1,148 @@
+html {
+    background: #0F1313;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background: #1c5a4f;
+    height: 120px;
+    border: black 1px solid;
+    border-radius: 12px;
+    color: antiquewhite;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 8px 12px #010204;
+}
+
+header h1 {
+    padding-left: 9px;
+    width: 70%;
+    font-size: 40px;
+    height: 17px;
+}
+
+header li {
+    width: fit-content;
+    list-style: none;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+header a :hover {
+    color: white;
+    background-color: black;
+}
+
+#characters {
+    background-color: #31af9a;
+}
+
+header h1,
+nav {
+    display: inline-block;
+}
+
+header nav ul {
+    font-size: 18px;
+    padding-right: 40px;
+    background-color: #143d36;
+    margin-right: 5px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+main {
+    padding-top: 5%;
+}
+
+.chamain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cha {
+    background: #162020;
+    border: #162020 1px solid;
+    border-radius: 5px;
+    width: 22vw;
+    height: auto;
+    margin: 37px 10px 37px 10px;
+    padding: 13px;
+    transition: width 1.9s, height 1.9s, margin 0.4s, box-shadow 1s;
+    box-shadow: 7px 10px 9px 5px #010202;
+}
+
+.cha:hover {
+    background: #2f4747;
+    width: 23vw;
+    height: auto;
+    margin: 19px 3px 19px 3px;
+    box-shadow: 8px 11px 9px 6px #010202;
+}
+
+.chaimg {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.6vw;
+    color: whitesmoke;
+    font-weight: 800;
+    text-align: center;
+}
+
+img {
+    border: #060707 1px solid;
+    border-radius: 5px;
+}
+
+footer {
+    height: 60px;
+    display: block;
+    color: antiquewhite;
+    background: #1c5a4f;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* .cha {
+    margin: 5px;
+    border: bisque 3px solid;
+    border-radius: 7px;
+    float: left;
+    width: 30%;
+    padding: 7px;
+    background-color: #011F19;
+}
+
+.chamain img {
+    width: 100%;
+    height: auto;
+}
+
+.chamain a {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+} */
