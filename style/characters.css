@@ -84,7 +84,7 @@ main {
     height: auto;
     margin: 37px 10px 37px 10px;
     padding: 13px;
-    transition: width 1.9s, height 1.9s, margin 0.4s, box-shadow 1s;
+    transition: width 0.6s, height 0.9s, margin 0.4s, box-shadow 1s;
     box-shadow: 7px 10px 9px 5px #010202;
 }
 
@@ -178,4 +178,120 @@ footer {
     font-size: 20px;
     text-align: center;
     margin-top: 5;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+    body {
+        margin: 0px;
+    }
+    header {
+        height: 120px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 60px 30px;
+        grid-row-gap: 10px;
+        grid-template-areas: "nav" "header";
+    }
+    header h1 {
+        grid-area: header;
+        padding: 0px;
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+        font-size: 36px;
+        height: 30px;
+        text-align: center;
+        padding-left: 20px;
+        margin-top: 0px;
+    }
+    header li {
+        list-style: none;
+    }
+    header a {
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    header a :hover {
+        color: white;
+        background-color: black;
+    }
+    header nav ul {
+        font-size: 18px;
+        background-color: transparent;
+        height: 25px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    header nav {
+        grid-area: nav;
+        justify-self: center;
+        align-self: start;
+        display: block;
+        width: 320px;
+        height: 28px;
+        /* padding: 0px 20px 0px 30px; */
+        /*position: relative;
+        right: 10px; */
+    }
+    /* main {
+        width: 96%;
+        padding-right: 5px;
+    }
+    /* .center {
+        width: 68vw;
+        margin: 10px 10px 10px 10px;
+    } */
+    main h3 {
+        font-size: 13px;
+        text-align: center;
+    }
+    #issac {
+        padding-top: 9px;
+        padding-bottom: 7px;
+    }
+    .cha {
+        width: 33vw;
+        transition: width 0.5s, height 0.7s, margin 0.7s, box-shadow 1s;
+    }
+    .cha:hover {
+        background: #2f4747;
+        width: 34vw;
+        height: 33vh;
+        margin: 0px;
+        box-shadow: 8px 11px 9px 6px #010202;
+    }
+    footer {
+        height: 108px;
+        width: 93%;
+        font-size: 17px;
+    }
+    footer p {
+        position: relative;
+        top: -4%;
+        margin: 8px;
+    }
+    #fbig {
+        width: 50%;
+        margin-left: 0%;
+        align-items: flex-start;
+    }
+    #fb {
+        width: 125px;
+        /* margin: 0%;
+        position: relative;
+        top: -65%;
+        right: -3%; */
+        transition: top 0.3s;
+    }
+    #ig {
+        width: 89px;
+        /* margin: 0%;
+        position: relative;
+        top: -58%;
+        right: -1%; */
+        transition: top 0.3s;
+    }
+    footer a {
+        padding: 0px 0px 0px 5px;
+    }
 }
