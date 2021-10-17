@@ -20,7 +20,14 @@
         background-color: #0f957e;
     }
     
-    header h1 {
+    #mainh1 {
+        padding-left: 40px;
+        width: 70%;
+        font-size: 40px;
+        height: 17px;
+    }
+    
+    h1 {
         padding-left: 40px;
         width: 70%;
         font-size: 40px;
@@ -67,17 +74,21 @@
         display: inline-block;
         padding: 10px;
         padding-top: 40px;
+    }
+    
+    #mainhxh {
+        font-size: 23px;
         text-align: justify;
+    }
+    
+    blockquote {
+        font-size: 23px;
+        text-align: center;
     }
     
     main h3 {
         font-size: 29px;
         text-align: center;
-    }
-    
-    main blockquote,
-    p {
-        font-size: 25px;
     }
     
     main img {
@@ -190,7 +201,7 @@
             grid-row-gap: 10px;
             grid-template-areas: "nav" "header";
         }
-        header h1 {
+        #mainh1 {
             grid-area: header;
             padding: 0px;
             justify-self: center;
@@ -200,6 +211,18 @@
             height: 30px;
             text-align: center;
             margin-top: 0px;
+        }
+        h1 {
+            grid-area: header;
+            padding: 0px;
+            justify-self: center;
+            align-self: center;
+            width: 90%;
+            font-size: 36px;
+            height: 40px;
+            text-align: center;
+            margin-top: 0px;
+            margin-left: 19px;
         }
         header li {
             list-style: none;
@@ -238,12 +261,16 @@
             width: 68vw;
             margin: 10px 10px 10px 10px;
         } */
+        #mainhxh {
+            font-size: 14px;
+        }
         main h3 {
             font-size: 22px;
             text-align: center;
         }
-        p {
-            font-size: 18px;
+        blockquote {
+            font-size: 14px;
+            text-align: justify;
         }
         footer {
             height: 113px;
@@ -255,6 +282,7 @@
             position: relative;
             top: -4%;
             margin: 8px;
+            text-align: center;
         }
         #fbig {
             width: 50%;
