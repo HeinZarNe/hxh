@@ -245,10 +245,6 @@ footer {
         font-size: 13px;
         text-align: center;
     }
-    #issac {
-        padding-top: 9px;
-        padding-bottom: 7px;
-    }
     .cha {
         width: 33vw;
         transition: width 0.5s, height 0.7s, margin 0.7s, box-shadow 1s;
