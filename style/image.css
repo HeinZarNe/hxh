@@ -301,7 +301,7 @@
                 background-color: rgb(24, 27, 27);
                 display: inline-block;
                 vertical-align: top;
-                height: 1215px;
+                height: 10%;
                 box-sizing: border-box;
                 box-shadow: 20px 0px 7px #010204;
                 text-align: center;
@@ -383,11 +383,11 @@
                 text-align: center;
             }
             #fbig {
-                width: 50%;
+                width: 100%;
                 margin-left: 0%;
             }
             #fb {
-                width: 118px;
+                width: 75%;
                 /* margin: 0%;
             position: relative;
             top: -65%;
@@ -395,7 +395,7 @@
                 transition: top 0.3s;
             }
             #ig {
-                width: 79px;
+                width: 50%;
                 /* margin: 0%;
             position: relative;
             top: -58%;

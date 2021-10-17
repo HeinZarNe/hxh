@@ -260,19 +260,20 @@ footer {
         height: 108px;
         width: 93%;
         font-size: 17px;
+        text-align: justify;
     }
     footer p {
         position: relative;
         top: -4%;
         margin: 8px;
+        text-align: center;
     }
     #fbig {
-        width: 50%;
+        width: 100%;
         margin-left: 0%;
-        align-items: flex-start;
     }
     #fb {
-        width: 126px;
+        width: 75%;
         /* margin: 0%;
         position: relative;
         top: -65%;
@@ -280,7 +281,7 @@ footer {
         transition: top 0.3s;
     }
     #ig {
-        width: 90px;
+        width: 50%;
         /* margin: 0%;
         position: relative;
         top: -58%;
